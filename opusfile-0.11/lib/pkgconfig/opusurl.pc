@@ -1,0 +1,14 @@
+# opusurl installed pkg-config file
+
+prefix=/home/mrshuong/thow/project/me-stop-yap/opusfile-0.11
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: opusurl
+Description: High-level Opus decoding library, URL support
+Version: 0.11
+Requires: opusfile
+Requires.private: openssl
+Conflicts:
+Libs: -L${libdir} -lopusurl

@@ -1,0 +1,6 @@
+[submodule "libopus"]
+	path = libopus
+	url = https://github.com/xiph/opus.git
+[submodule "libopusfile"]
+	path = libopusfile
+	url = https://github.com/xiph/opusfile.git
